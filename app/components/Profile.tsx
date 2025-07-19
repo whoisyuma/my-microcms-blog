@@ -25,7 +25,7 @@ export default function ProfilePage() {
                         </div>
                         <div className="text-left mb-3">
                             <h3 className="mb-1 font-semibold">今やっている事</h3>
-                            <p className="px-1 leading-relaxed">Next.jsやTypeScriptを中心に、モダンな技術を使ったWebアプリ開発を進めています</p>
+                            <p className="px-1 leading-relaxed">Next.jsやTypeScriptを中心に、モダンな技術を使ったWebアプリ開発を進めています。</p>
                             <p className="px-1 pb-1 leading-relaxed">SupabaseやmicroCMSなど新しいスキルにもチャレンジしながら、様々なサービスを制作・改善中です。実装だけでなく、UI設計や情報設計なども含めて、より使いやすいプロダクトを目指しています。</p>
                         </div>
                         <div className="text-left mb-3">
