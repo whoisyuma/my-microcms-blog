@@ -2,6 +2,9 @@ import ProfilePage from "@/app/components/Profile";
 import { client } from "@/libs/microcms"
 import Link from "next/link";
 
+// ISRの設定
+export const revalidate = 300;
+
 // カテゴリの型指定
 type Category = {
     id: string;
@@ -84,7 +87,7 @@ export default async function CategoryPage({params}: PageProps) {
             </main>
         );
     }
-    
+
     return (
         <main className='bg-sky-200 pt-20 px-4 min-h-screen'>
             <h1 className='text-2xl font-bold text-gray-800 mt-15 mb-6 border-b-2 border-gray-300 pb-2 max-w-6xl mx-auto'>
